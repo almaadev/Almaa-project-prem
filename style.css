@@ -1,0 +1,121 @@
+*{  
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+.nav-link a{
+    color: rgb(78, 77, 77);
+    transition: color 350ms ease-in 60ms;
+}
+.nav-link a:hover{
+    color: rgb(22, 206, 22);
+    transition: color 90ms ease-out ;
+}
+.ham-menu a{
+    color: black;
+    transition: color 350ms ease-in 60ms;
+}
+.ham-menu a:hover{
+    color: rgb(13, 223, 13);
+    transition: color 90ms ease-out ;
+}
+
+header {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.slider-item {
+    display: none;
+    transition: opacity 1s ease-in-out;
+}
+.slider-item.active {
+    display: block;
+}
+
+/* Css animation for sliders in header section */
+
+.slider-item h1{
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: slideDown 0.8s ease-out forwards;
+
+}
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slider-item p{
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slideUp 0.8s ease-out forwards 0.2s;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slider-item a{
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards 0.4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-left,
+.fade-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: all 0.8s ease-out;
+}
+
+/* left element comes from left */
+.fade-left {
+    transform: translateX(-40px);
+}
+
+/* When visible */
+.animate {
+    opacity: 2 !important;
+    transform: translateX(0)!important;
+}
+
+
+/* Custom scrollbar for product section */
+.overflow-x-auto::-webkit-scrollbar {
+    height: 8px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

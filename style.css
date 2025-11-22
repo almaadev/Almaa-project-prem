@@ -6,18 +6,26 @@
 .nav-link a{
     color: rgb(78, 77, 77);
     transition: color 350ms ease-in 60ms;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+.nav-link a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: rgb(13, 226, 13);
+    transition: width 0.3s ease;
+}
+.nav-link a:hover::after{
+    width: 100%;
 }
 .nav-link a:hover{
-    color: rgb(22, 206, 22);
-    transition: color 90ms ease-out ;
-}
-.ham-menu a{
-    color: black;
-    transition: color 350ms ease-in 60ms;
-}
-.ham-menu a:hover{
-    color: rgb(13, 223, 13);
-    transition: color 90ms ease-out ;
+    color:  rgb(30, 175, 30);
+    transition: color 90ms ease-out;
 }
 
 header {
@@ -86,42 +94,18 @@ header {
 .fade-left,
 .fade-right {
     opacity: 0;
+    transition: all 1.5s ease;
 }
 
 /* Left side animation */
-.fade-left.animate {
-    animation: slideLeft 0.8s ease-out forwards;
+.fade-left{ transform: translateX(100px);}
+.fade-right{ transform: translateX(-100px);}
+
+
+.visible {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
 }
-
-/* Right side animation */
-.fade-right.animate {
-    animation: slideRight 0.8s ease-out forwards;
-}
-
-/* KEYFRAMES */
-
-@keyframes slideLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideRight {
-    0% {
-        opacity: 0;
-        transform: translateX(40px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 
 /* Custom scrollbar for product section */
 .overflow-x-auto::-webkit-scrollbar {
@@ -141,3 +125,57 @@ header {
 .overflow-x-auto::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* Form styles */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4B5563;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #4B5563;
+    background-color: #fff;
+    border-color: #10B981;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(16 185 129 / 25%);
+}
+
+/* Footer styles */
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    /* Start hidden */
+.fade-left,
+.fade-right {
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+/* Left side animation */
+.fade-left{ transform: translateY(-100px);}
+.fade-right{ transform: translateY(100px);}
+
+
+.visible {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+}
+
+
+
+

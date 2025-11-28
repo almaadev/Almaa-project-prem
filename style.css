@@ -17,14 +17,14 @@
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: rgb(13, 226, 13);
+    background-color: rgb(9, 88, 9);
     transition: width 0.3s ease;
 }
 .nav-link a:hover::after{
     width: 100%;
 }
 .nav-link a:hover{
-    color:  rgb(30, 175, 30);
+    color:  rgb(45, 136, 45);
     transition: color 90ms ease-out;
 }
 
@@ -94,12 +94,12 @@ header {
 .fade-left,
 .fade-right {
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: all 0.5s ease;
 }
 
 /* Left side animation */
-.fade-left{ transform: translateX(100px);}
-.fade-right{ transform: translateX(-100px);}
+.fade-left{ transform: translateY(100px);}
+.fade-right{ transform: translateY(100px);}
 
 
 .visible {

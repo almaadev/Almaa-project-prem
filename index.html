@@ -15,15 +15,15 @@
 </head>
 
 <body>
-    
-     <!-- Header  -->
-    <header role="banner" class="bg-green-600 sticky top-0 z-50 h-8">
-       <marquee behavior="scroll" scrollamount="12"  direction="right" loop="infinite">
-         <h1 class="text-center py-1 text-white font-bold">
-            WELCOME  TO  ALMAA - GROUPS !
-        </h1>
-       </marquee>
+      <!-- Header  -->
+    <header id="site-header" class="bg-green-800 fixed top-0 left-0 w-full z-50 transition-transform duration-300">
+        <marquee behavior="scroll" scrollamount="12"  direction="right" loop="infinite">
+            <h1 class="text-center py-1 text-white font-bold">
+                WELCOME  TO  ALMAA - GROUPS !
+            </h1>
+        </marquee>
     </header>
+   
      <!-- Navbar  -->
     <div class="bg-white shadow-md sticky top-8 z-50">
             <nav role="navigation" class=" mx-auto px-6 py-3 flex justify-between items-center">
@@ -38,11 +38,11 @@
             </div>
             <div>
                 <a href="#contact"
-                    class="hidden md:flex py-3 px-10 border bg-green-500 text-white hover:bg-white hover:text-green-500 rounded-full font-bold ml-6 transition-colors transition-transform duration-300 ease-in-out hover:scale-110">Book
+                    class="hidden md:flex py-3 px-10 border bg-green-800 text-white hover:bg-white hover:text-green-800 rounded-xl font-bold ml-6 transition-colors transition-transform duration-300 ease-in-out hover:scale-110">Book
                     an Appointment</a>
             </div>
             <button id="mobile-menu-button" class="md:hidden flex items-center" aria-label="Open mobile menu">
-                <img class="w-10" src="./public/images/hamburger-button.svg" alt="" srcset="">
+                <img class="w-10" src="./public/images/ham-btn.svg" alt="" srcset="">
             </button>
         </nav>
         <div id="mobile-menu" class="ham-menu hidden md:hidden px-6 pt-2 pb-4 ">
@@ -67,7 +67,7 @@
                         class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center p-6">
                         <h1 class="text-3xl md:text-5xl font-bold ">Detox • Balance • Glow</h1>
                         <p class="mt-4 text-lg md:text-xl max-w-2xl ">The Siddha Way </p>
-                        <a href="#contact" class="bg-green-500 text-white hover:bg-white hover:text-green-500 py-2 px-6 rounded-full font-bold mt-4 transition-colors duration-300">Book an Appointment</a>
+                        <a href="#contact" class="bg-green-800 text-white hover:bg-white hover:text-green-800 py-2 px-6 rounded-xl font-bold mt-4 transition-colors duration-300">Book an Appointment</a>
                     </div>
                 </div>
                 <!-- Slide 2 -->
@@ -78,7 +78,7 @@
                         class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center p-6">
                         <h1 class="text-3xl md:text-5xl font-bold">Pure Siddha Therapies</h1>
                         <p class="mt-4 text-lg md:text-xl max-w-2xl"> Visible Healing. Natural Results</p>
-                        <a href="#about" class="bg-green-500 text-white hover:bg-white hover:text-green-500 py-2 px-6 rounded-full font-bold mt-4 transition-colors duration-300">To Know More</a>
+                        <a href="#about" class="bg-green-800 text-white hover:bg-white hover:text-green-800 py-2 px-6 rounded-xl font-bold mt-4 transition-colors duration-300">To Know More</a>
                     </div>
                 </div>
                 <!-- Slide 3 -->
@@ -89,13 +89,13 @@
                         class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-center p-6">
                         <h1 class="text-3xl md:text-5xl font-bold">Siddha Medicine + External Therapies = Natural Healing</h1>
                         <p class="mt-4 text-lg md:text-xl max-w-2xl">Traditional Siddha Therapies for Total Wellness</p>
-                        <a href="#contact" class="bg-green-500 text-white hover:bg-white hover:text-green-500 py-2 px-6 rounded-full font-bold mt-4 transition-colors duration-300">Contact Us</a>
+                        <a href="#contact" class="bg-green-800 text-white hover:bg-white hover:text-green-800 py-2 px-6 rounded-xl font-bold mt-4 transition-colors duration-300">Contact Us</a>
                     </div>
                 </div>
             </div>
             <button id="prev-slide" aria-label="Previous slide"
                 class="absolute top-1/2 md:left-4 :-left-3    p-2 rounded-full text-gray-800">
-                <img class="w-6 " src="./public/images/back-svgrepo-com.svg" alt="" srcset="">
+                <img class="w-6" src="./public/images/back-svgrepo-com.svg" alt="" srcset="">
             </button>
 
             <button id="next-slide" aria-label="Next slide"
@@ -110,7 +110,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                     <div class="fade-left order-2 md:order-1">
-                        <h2 id="about-heading" class="text-3xl font-bold text-green-500 mb-4">About Us</h2>
+                        <h2 id="about-heading" class="text-3xl font-bold text-green-800 mb-4">About Us</h2>
                         <p class="text-gray-600 leading-relaxed">
                            At Almaa Siddha Care, we are committed to delivering authentic Siddha healthcare through traditional wisdom and modern trust. 
                            With 25+ Siddha clinics all over Tamil Nadu, we provide doctor-supervised treatments, external therapies and preventive wellness care focused on root-cause healing. 
@@ -131,12 +131,12 @@
           
         <section id="branches" role="region" aria-labelledby="branches-heading" class="py-12 md:py-20 bg-gray-50 ">
             <div class="container mx-auto px-6 pt-12">
-                <h2 id="branches-heading" class="text-3xl font-bold text-center text-green-500 mb-10">Branches</h2>
+                <h2 id="branches-heading" class="text-3xl font-bold text-center text-green-800 mb-10">Branches</h2>
                   <p class="text-gray-600 leading-relaxed mb-4 text-center ">
                         With 25+ Siddha clinics established across major cities and towns, we ensure that expert traditional healthcare is always accessible near you. Each branch is led by qualified Siddha physicians and therapists who provide trusted, evidence-based treatments for all age groups. Our growing network reflects our commitment to deliver the best Siddha care, accurate diagnosis, and personalized therapeutic support, ensuring that patients can receive natural and reliable healing conveniently at a center close to their home.
                     </p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-6">
-                    
+                    <!-- Chennai Branch -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden fade-left">
                         <div class="aspect-video">
                             <img src="./public/images/chennai.jpg" alt="Chennai Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
@@ -146,8 +146,8 @@
                             <p class="text-gray-600 mt-2">#10, Pillaiyar Koil Street, Saidapet, Chennai - 600015. (Opposite to TML Party Hall)</p>
                         </div>
                     </div>
-                    
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <!-- Krishnagiri -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden fade-left">
                         <div class="aspect-video">
                             <img src="./public/images/krishnagiri.jpg" alt="Krishnagiri Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
                         </div>
@@ -156,7 +156,7 @@
                             <p class="text-gray-600 mt-2">Door No:-2/24 Mel Pudur Main Road, Next to PNS Institute, Krishnagiri-635001.</p>
                         </div>
                     </div>
-                  
+                    <!-- Dharmapuri -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden fade-right">
                         <div class="aspect-video">
                             <img src="./public/images/dharmapuri.jpg" alt="Dharmapuri Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
@@ -166,18 +166,18 @@
                             <p class="text-gray-600 mt-2">Raja Gounder Street, Senthil Nagar, Salem Main Road, Near Ration Shop, Dharmapuri-636705.</p>
                         </div>
                     </div>
-                    
+                    <!-- Salem -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden fade-left">
                         <div class="aspect-video">
-                            <img src="./public/images/selam.jpeg" alt="Salem Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
+                            <img src="./public/images/salem.jpg" alt="Salem Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-green-700 cursor-pointer ">Salem</h3>
                             <p class="text-gray-600 mt-2">No:109/2 Kennady Nagar, Subramaniya Nagar, First Gate, Suramangalam,Salem-636005.</p>
                         </div>
                     </div>
-                  
-                    <div class="bg-white rounded-xl shadow-md overflow-hidden ">
+                    <!-- Erode -->
+                    <div class="bg-white rounded-xl shadow-md overflow-hidden fade-left ">
                         <div class="aspect-video">
                             <img src="./public/images/erode.jpg" alt="Erode Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
                         </div>
@@ -186,10 +186,10 @@
                             <p class="text-gray-600 mt-2">No:14,Muthu Vellappa Street, Near Hari Bala Mall Silks, Kaikolar Thottam,Erode-638001.</p>
                         </div>
                     </div>
-                   
+                    <!-- Tiruppur -->
                     <div class="bg-white rounded-xl shadow-md overflow-hidden fade-right">
                         <div class="aspect-video">
-                            <img src="./public/images/tiruppur.jpeg" alt="Tiruppur Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
+                            <img src="./public/images/Tiruppur.jpg" alt="Tiruppur Branch" class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-green-700 cursor-pointer cursor-pointer ">Tiruppur</h3>
@@ -198,7 +198,7 @@
                     </div>
                 </div>
                 <div class="text-center mt-10">
-                    <a href="https://www.almaherbal.com/our-branches" target="_blank" rel="noopener noreferrer" class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-md transition-colors">View All Branches</a>
+                    <a href="https://www.almaherbal.com/our-branches" target="_blank" rel="noopener noreferrer" class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-800 py-3 px-6 rounded-md transition-colors">View All Branches</a>
                 </div>
             </div>
         </section>
@@ -207,14 +207,14 @@
          <section id="therapy-centers" class="py-20 px-6 bg-white">
             <div class="max-w-6xl mx-auto pt-12">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl lg:text-4xl font-bold text-green-500">Specialized Therapy Centers</h2>
+                    <h2 class="text-3xl lg:text-4xl font-bold text-green-800">Specialized Therapy Centers</h2>
                     <p class="mt-4 text-lg text-gray-600">At​ Almaa Siddha Care, external therapies are deeply ingrained in our treatment method—purposely made to cleanse, revive, and bring back the health in a natural way. Our treatments, which are a blend of old Siddha methods and modern cleanliness and scientific protocols, take care of the removal of toxins, alleviation of pain, betterment of blood flow, metabolism balancing, and speeding up of the recovery ​‍​‌‍​‍‌​‍​‌‍​‍‌process.</p>
                 </div>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 transition-transform duration-500 ease-in-out">
                     <!-- alma Siddha care -->
-                    <div class="fade-left rounded-xl shadow-lg overflow-hidden transition-transform duration-500 ease-in-out">
+                    <div class="fade-left rounded-xl shadow-lg overflow-hidden ">
                         <div class="aspect-video">
-                            <img class="w-full h-full object-cover object-center  transition-transform duration-300 ease-in-out hover:scale-110" src="./public/images/Vela -3.webp" alt="Physical Therapy Session">
+                            <img class="w-full h-full object-cover object-center transition-transform duration-300 ease-in-out hover:scale-110" src="./public/images/Vela -3.webp" alt="Physical Therapy Session">
                         </div>
                         <div class="p-6">
                             <p class="text-sm text-green-500 uppercase tracking-wide font-semibold">ALMAA SIDDHA CARE</p>
@@ -226,19 +226,19 @@
                                     These treatments have shown excellent results in people with <strong> arthritis, sports injuries, joint and muscle pain,
                                     spinal discomfort, and mobility restrictions, </strong> helping them regain strength and better movement.</p>
                             <div class="mt-6">
-                                <a href="#" class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">To Know More</a>
+                                <a href="#" class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-800 py-3 px-6 rounded-xl transition-colors duration-300">To Know More</a>
                             </div>
                         </div>
                     </div>
                     <!-- vela siddha village resort -->
                     <div class="fade-right rounded-xl shadow-lg overflow-hidden">
                         <div class="aspect-video">
-                            <img class="w-full h-full object-cover object-center  transition-transform duration-300 ease-in-out hover:scale-110" src="./public/images/Vela -3.webp" alt="Mental Wellness Session">
+                            <img class="w-full h-full object-cover object-center  transition-transform duration-300 ease-in-out hover:scale-110" src="./public/images/Vela Res.webp" alt="Mental Wellness Session">
                         </div>
                         <div class="p-6">
                             <p class="text-sm text-green-500 uppercase tracking-wide font-semibold">Vela Siddha Village Resort </p>
                             <h3 class="mt-2 text-2xl font-bold text-gray-600"> Where Healing Meets Nature</h3>
-                            <p class="mt-4 text-gray-600">Our <strong> Vela Siddha Village Resort </strong> is India’s pioneering Siddha-based in-patient healing destination.
+                            <p class="mt-4 text-gray-600 ">Our <strong> Vela Siddha Village Resort </strong> is India’s pioneering Siddha-based in-patient healing destination.
                                 At this wellness retreat, guests receive <strong> guided Siddha therapies, rejuvenating external treatments,
                                 and lifestyle-based health care </strong> inside a nature-inspired environment. The serene surroundings, 
                                 hygienically prepared traditional food, and care handled by senior Siddha physicians create an ideal space for healing. 
@@ -246,7 +246,7 @@
                                 deep relaxation, and natural healing at its best.
                             </p>
                             <div class="mt-6">
-                                <a href="#" class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">To Know More</a>
+                                <a href="#" class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-800 py-3 px-6 rounded-xl transition-colors duration-300">To Know More</a>
                             </div>
                         </div>
                     </div>
@@ -257,106 +257,126 @@
         <!-- Almma Product Combo -->
         <section id="product-combo" role="region" aria-labelledby="product-combo-heading" class="py-12 md:py-20 bg-gray-100">
             <div class="max-w-screen-2xl mx-auto px-6 pt-12" >
-                <h2 id="product-combo-heading" class="text-3xl font-bold text-center text-green-500 mb-10">Almma Health Products Combo</h2>
+                <h2 id="product-combo-heading" class="text-3xl font-bold text-center text-green-800 mb-10">Almma Health Products Combo</h2>
                 <div class="relative">
                     <div id="product-container" class="overflow-hidden">
-                        <div id="product-carousel" role="group" class="flex gap-8 transition-transform duration-500 ease-in-out">
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                        <!-- Product-1 -->
+                        <div id="product-carousel" role="group" class="flex gap-8 transition-transform duration-500 ease-in-out ">
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Diabetes Care Combo  1.webp" alt="Vitamin C Boost" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Diabetes Care Combo 01 .webp" alt="Diabetes care" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
-                                <div class="p-6  px-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Vitamin C Boost</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Immune Support Formula</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">200 rs</span>
+                                <div class="p-6  text-center ">
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Diabetes care</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">Type 2 Diabetes, uncontrolled Diabetes, Diabetes Neuropathy</p>
+                                    <div class="mt-4 flex items-center justify-evenly ">
+                                        <span class="text-xl font-bold text-emerald-600">₹1863.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/diabetes-care" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
+                                    
                                 </div>
                             </article>
                             <!-- Product 2 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Calming Herbal Tea" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Piles Care Combo 01.webp" alt="Piles Free Constipation Solution" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Calming Herbal Tea</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Relax and Unwind</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">186 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Piles Free Constipation Solution</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">All types of Piles, Fistula & Haemorrhoids.</p>
+                                    <div class="mt-4 flex items-center justify-evenly ">
+                                        <span class="text-xl font-bold text-emerald-600">₹2884.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/piles-free-constipation-solution" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
+                                    
                                 </div>
                             </article>
                             <!-- Product 3 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Ortho Support Pillow" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Arthritis Care Combo 01.webp" alt="Arthiritis Pain Relief Solution" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Ortho Support Pillow</h3>
-                                    <p class="text-gray-500 text-sm mt-1">For a restful sleep</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">320 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Arthiritis Pain Relief Solution</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">All Types of Joint Pain & Muscular Pain</p>
+                                    <div class="mt-4 flex items-center justify-evenly ">
+                                        <span class="text-xl font-bold text-emerald-600">₹2015.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/arthiritis-pain-relief-solution" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
+                                    
                                 </div>
                             </article>
                             <!-- Product 4 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Compact First-Aid Kit" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Asthma Wheezing Combo 01.webp" alt="Asthma Wheezing Natural Solution" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Compact First-Aid Kit</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Essential for home & travel</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">299 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Asthma Wheezing Natural Solution</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12"><a href="https://www.almaherbal.com/products/asthma-wheezing-natural-solution" target="_blank">All types of breathing Problems...</a></p>
+                                    <div class="mt-4 flex items-center justify-evenly ">
+                                        <span class="text-xl font-bold text-emerald-600">₹1558.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/asthma-wheezing-natural-solution" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
+                                    
                                 </div>
                             </article>
                           
+                            <!-- Product 5 -->
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
+                                <div class="relative overflow-hidden">
+                                    <img src="./public/images/Varicose Combo 01.webp" alt="Adathodai Syrup" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-6 text-center">
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Natural Solutions For Varicose Veins</h3>
+                                    <a href="https://www.almaherbal.com/products/natural-solutions-for-varicose-veins" target="_blank"><p class="text-gray-500 text-sm mt-1">This combo targets the root causes of varicose...</p></a>
+                                    <div class="mt-4 flex justify-evenly items-center h-12">
+                                        <span class="text-xl font-bold text-emerald-600">₹1550.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/natural-solutions-for-varicose-veins" target="_blank">Buy Now</a></button>
+                                    </div>
+                                </div>
+                            </article>
                             <!-- Product 6 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Adathodai Syrup" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Ulcer Combo 01.webp" alt="Adhimathuram Powder" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Adathodai Syrup</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Cough & Cold Relief</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">190 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Natural Ulcer Care</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">Gastric Ulcer,Deuodenal Ulcer, H.Pylori, Gastritis</p>
+                                    <div class="mt-4 flex justify-evenly items-center ">
+                                        <span class="text-xl font-bold text-emerald-600">₹2107.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/natural-ulcer-care" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
                                 </div>
                             </article>
-                            <!-- Product 7 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+                            <!-- Product 7-->
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Adhimathuram Powder" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Kidney Stone Combo 01.webp" alt="Herbal Cool Juice" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Adhimathuram Powder</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Sore Throat Relief</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">150 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Kidney Stone</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">Kidney Stone</p>
+                                    <div class="mt-4 flex justify-evenly items-center ">
+                                        <span class="text-xl font-bold text-emerald-600">₹1994.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/kidney-stone" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
                                 </div>
                             </article>
-                            <!-- Product 8 -->
-                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0">
+
+                             <!-- Product 8 -->
+                            <article role="article" class="bg-white rounded-lg shadow-md overflow-hidden group w-80 flex-shrink-0 cursor-pointer">
                                 <div class="relative overflow-hidden">
-                                    <img src="./public/images/Kandankathiri Powder-5.jpg" alt="Herbal Cool Juice" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
+                                    <img src="./public/images/Gallbladder  Stone Combo.webp" alt="Herbal Cool Juice" class="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-300">
                                 </div>
                                 <div class="p-6 text-center">
-                                    <h3 class="text-lg font-semibold text-gray-800">Herbal Cool Juice</h3>
-                                    <p class="text-gray-500 text-sm mt-1">Refreshing & Healthy</p>
-                                    <div class="mt-4">
-                                        <span class="text-xl font-bold text-emerald-600">120 rs</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 h-12">Gallbladder Stone</h3>
+                                    <p class="text-gray-500 text-sm mt-1 h-12">Gall Bladder Stone</p>
+                                    <div class="mt-4 flex justify-evenly items-center">
+                                        <span class="text-xl font-bold text-emerald-600">₹1994.00</span>
+                                        <button class="bg-green-800 text-white font-bold border hover:bg-white hover:text-green-600 py-2 px-6 rounded-xl transition-colors duration-300"><a href="https://www.almaherbal.com/products/gallbladder-stone" target="_blank">Buy Now</a></button>
                                     </div>
-                                    <button class="bg-green-600 text-white font-bold border hover:bg-white hover:text-green-600 py-3 px-6 rounded-full transition-colors duration-300">Add to Cart</button>
                                 </div>
                             </article>
                         </div>
@@ -374,7 +394,7 @@
         <!-- Contact Us -->
         <section id="contact" role="region" aria-labelledby="contact-heading" class="py-12 md:py-20 bg-white">
             <div class="container mx-auto px-6 pt-12">
-                <h2 id="contact-heading" class="text-3xl font-bold text-center text-green-500 mb-10">Contact Us</h2>
+                <h2 id="contact-heading" class="text-3xl font-bold text-center text-green-800 mb-10">Contact Us</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <!-- Contact Form -->
                     <div class="fade-left">
@@ -396,7 +416,7 @@
                                 <textarea id="message" name="message" rows="4" required class="form-control mt-1"></textarea>
                             </div>
                             <div class="flex justify-center">
-                                <button type="submit" class="bg-green-500 border text-white hover:bg-white hover:text-green-500 py-2 px-6 rounded-full font-bold mt-4 transition-colors duration-300">
+                                <button type="submit" class="bg-green-800 border text-white hover:bg-white hover:text-green-800 py-2 px-6 rounded-xl font-bold mt-4 transition-colors duration-300">
                                     Send Message
                                 </button>
                             </div>
@@ -424,8 +444,8 @@
     </main>
 
     <!-- Footer -->
-    <footer role="contentinfo" class="bg-green-500 text-white">
-        <div class="container mx-auto px-6 py-8">
+    <footer role="contentinfo" class="bg-green-700 text-white">
+        <div class="container mx-auto px-6 py-5">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <p class="text-center md:text-left">&copy; 2025 Almma Hospital. All rights reserved.</p>
                 <div class="flex mt-4 md:mt-0 space-x-4">
@@ -484,7 +504,7 @@
                     productCarousel.style.transition = 'none';
                     currentIndex = 0;
                     productCarousel.style.transform = `translateX(0px)`;
-                },1000);
+                },3000);
             }
         }
 
@@ -505,7 +525,7 @@
         }
 
         function startAutoScroll() {
-            autoScrollInterval = setInterval(nextProduct, 1000);
+            autoScrollInterval = setInterval(nextProduct, 3000);
         }
 
         function stopAutoScroll() {

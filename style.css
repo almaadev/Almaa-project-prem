@@ -4,7 +4,6 @@
 
 }
 .nav-link a{
-    color: rgb(78, 77, 77);
     transition: color 350ms ease-in 60ms;
     position: relative;
     display: inline-block;

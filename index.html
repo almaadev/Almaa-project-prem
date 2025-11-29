@@ -16,7 +16,7 @@
 
 <body>
       <!-- Header  -->
-    <header id="site-header" class="bg-green-800 fixed top-0 left-0 w-full z-50 transition-transform duration-300">
+    <header id="site-header" class="bg-green-800 w-full  transition-transform duration-300">
         <marquee behavior="scroll" scrollamount="12"  direction="right" loop="infinite">
             <h1 class="text-center py-1 text-white font-bold">
                 WELCOME  TO  ALMAA - GROUPS !
@@ -25,7 +25,7 @@
     </header>
    
      <!-- Navbar  -->
-    <div class="bg-white shadow-md sticky top-8 z-50">
+    <div class="bg-white shadow-md sticky top-0  z-50">
             <nav role="navigation" class=" mx-auto px-6 py-3 flex justify-between items-center">
             <a class="logo  "> <img class="w-64 " src="./public/images/logo.png" alt="Almma Hospital Logo"
                     srcset=""></a>
@@ -45,12 +45,12 @@
                 <img class="w-10" src="./public/images/ham-btn.svg" alt="" srcset="">
             </button>
         </nav>
-        <div id="mobile-menu" class="ham-menu hidden md:hidden px-6 pt-2 pb-4 ">
-            <a href="#about" class="block py-2 text-center border rounded-lg bg-green-500 text-white hover:bg-white hover:text-green-500 mb-2">About Us</a>
-            <a href="#branches" class="block py-2 text-center border rounded-lg bg-green-500 text-white hover:bg-white hover:text-green-500 mb-2">Our Branches</a>
-            <a href="#therapy-centers" class="block py-2 text-center border rounded-lg bg-green-500 text-white hover:bg-white hover:text-green-500 mb-2 ">Therapy Centers</a>
-            <a href="#product-combo" class="block py-2 text-center border rounded-lg bg-green-500 text-white hover:bg-white hover:text-green-500 mb-2">Products</a>
-            <a href="#contact" class="block py-2 text-center border rounded-lg bg-green-500 text-white hover:bg-white hover:text-green-500 mb-2">Book an Appointment</a>
+        <div id="mobile-menu" class="ham-menu hidden md:hidden px-6 pt-2 pb-4 bg-transparent">
+            <a href="#about" class="block py-2 text-center border rounded-lg bg-green-800 text-white hover:bg-white hover:text-green-800 mb-2">About Us</a>
+            <a href="#branches" class="block py-2 text-center border rounded-lg bg-green-800 text-white hover:bg-white hover:text-green-800 mb-2">Our Branches</a>
+            <a href="#therapy-centers" class="block py-2 text-center border rounded-lg bg-green-800 text-white hover:bg-white hover:text-green-800 mb-2 ">Therapy Centers</a>
+            <a href="#product-combo" class="block py-2 text-center border rounded-lg bg-green-800 text-white hover:bg-white hover:text-green-800 mb-2">Products</a>
+            <a href="#contact" class="block py-2 text-center border rounded-lg bg-green-800 text-white hover:bg-white hover:text-green-800 mb-2">Book an Appointment</a>
         </div>
     </div>
     
@@ -258,6 +258,7 @@
         <section id="product-combo" role="region" aria-labelledby="product-combo-heading" class="py-12 md:py-20 bg-gray-100">
             <div class="max-w-screen-2xl mx-auto px-6 pt-12" >
                 <h2 id="product-combo-heading" class="text-3xl font-bold text-center text-green-800 mb-10">Almma Health Products Combo</h2>
+                <a href="https://www.almaherbal.com/category/combos" class="text-right p-6 text-green-700 font-bold hover:text-green-600" target="_blank"><p>View All</p></a>
                 <div class="relative">
                     <div id="product-container" class="overflow-hidden">
                         <!-- Product-1 -->
@@ -448,15 +449,24 @@
         <div class="container mx-auto px-6 py-5">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <p class="text-center md:text-left">&copy; 2025 Almma Hospital. All rights reserved.</p>
-                <div class="flex mt-4 md:mt-0 space-x-4">
-                    <a href="#" class="text-black hover:text-white" aria-label="Facebook">
+                <div class="flex gap-5 mt-4 md:mt-0 space-x-4">
+                    <a href="https://www.facebook.com/almaherbal" class="text-black hover:text-white" aria-label="Facebook">
                         <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path></svg>
                     </a>
-                    <a href="#" class="text-black hover:text-white" aria-label="Twitter">
-                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B917401403000&text&type=phone_number&app_absent=0" class="text-black hover:text-white" aria-label="WhatsApp">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M20.52 3.48A11.78 11.78 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.17 1.6 6.01L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.19-1.24-6.19-3.48-8.52zM12 21.5a9.44 9.44 0 0 1-4.81-1.31l-.34-.2-3.67.96.98-3.58-.22-.37A9.46 9.46 0 1 1 21.5 12c0 5.24-4.26 9.5-9.5 9.5zm5.07-6.85c-.28-.14-1.65-.82-1.91-.91-.26-.1-.45-.14-.64.14-.19.28-.74.91-.91 1.1-.17.19-.34.21-.62.07-.28-.14-1.18-.44-2.24-1.41-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.19-.28.28-.47.09-.19.04-.35-.02-.49-.06-.14-.64-1.53-.88-2.1-.23-.55-.47-.47-.64-.48h-.55c-.19 0-.49.07-.75.35-.26.28-.98.96-.98 2.34 0 1.38 1 2.72 1.14 2.91.14.19 1.97 3.01 4.77 4.23 2.8 1.22 2.8.81 3.31.76.51-.05 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.26-.19-.54-.33z"/>
+                        </svg>
                     </a>
-                    <a href="#" class="text-black hover:text-white" aria-label="GitHub">
-                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.438 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                    <a href="https://www.instagram.com/almaaherbalnature/" class="text-black hover:text-white" aria-label="Instagram">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zm4.25 3a5.25 5.25 0 1 1 0 10.5 5.25 5.25 0 0 1 0-10.5zm0 1.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5zm5-1.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@AlmaaSiddhaTV" class="text-black hover:text-white" aria-label="YouTube">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M23.498 6.186a2.974 2.974 0 0 0-2.09-2.103C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.408.583a2.974 2.974 0 0 0-2.09 2.103A31.533 31.533 0 0 0 .5 12.01c-.012 1.95.188 3.9.602 5.814a2.974 2.974 0 0 0 2.09 2.103C4.495 20.5 12 20.5 12 20.5s7.505 0 9.408-.583a2.974 2.974 0 0 0 2.09-2.103c.414-1.914.614-3.864.602-5.814a31.535 31.535 0 0 0-.602-5.814zM9.75 15.02V9l6.25 3.01-6.25 3.01z"/>
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -464,7 +474,7 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <button id="back-to-top" aria-label="Back to top" class="hidden fixed bottom-8  right-8 bg-green-900 hover:bg-green-700  text-white p-3 rounded-full shadow-lg transition-opacity">
+    <button id="back-to-top" aria-label="Back to top" class="hidden fixed bottom-8  right-8 bg-gray-700 hover:bg-black  text-white p-3 rounded-full shadow-lg transition-opacity">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
     </button>
     <script src="./script.js"></script>
@@ -504,7 +514,7 @@
                     productCarousel.style.transition = 'none';
                     currentIndex = 0;
                     productCarousel.style.transform = `translateX(0px)`;
-                },3000);
+                },2000);
             }
         }
 
@@ -517,7 +527,7 @@
                     productCarousel.style.transition = 'transform 0.5s ease-in-out';
                     currentIndex--;
                     updateCarousel();
-                }, 10);
+                }, 1000);
             } else {
                 currentIndex--;
                 updateCarousel();
@@ -525,7 +535,7 @@
         }
 
         function startAutoScroll() {
-            autoScrollInterval = setInterval(nextProduct, 3000);
+            autoScrollInterval = setInterval(nextProduct, 2000);
         }
 
         function stopAutoScroll() {

@@ -103,7 +103,7 @@ header {
 
 .visible {
     opacity: 1 !important;
-    transform: translateX(0) !important;
+    transform: translateY(0) !important;
 }
 
 /* Custom scrollbar for product section */
